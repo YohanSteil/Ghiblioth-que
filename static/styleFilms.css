@@ -1,0 +1,37 @@
+body{
+    background-color: lightseagreen;
+    margin: 0;
+    max-height: 100vh;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+}
+
+.mainTitle{
+    font-size: 3rem;
+}
+
+.filmsListe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filmsListe__listes{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.filmsListe__listes > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.filmsListe__listes > a:hover {
+    color: lightseagreen;
+    background-color: white;
+}

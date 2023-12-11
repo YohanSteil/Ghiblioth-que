@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs', { 
+    cssFile :  ('/styleFilms.css')
+     }) %>
+
+<main class="main">
+   <h1 class="mainTitle">Liste de films : </h1>
+
+   <ul class="filmsListe">
+        <% for (const film of films) {  %>
+            <li class="filmsListe__listes"><a href="/films/<%= film.id  %>"> <%= film.title %> </a></li>
+     <%  } %>
+   </ul>
+</main>
+</body>
+</html>

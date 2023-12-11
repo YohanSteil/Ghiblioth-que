@@ -1,0 +1,24 @@
+<%- include('partials/header.ejs', {
+    cssFile : ('/styleFilm.css')
+}) %>
+
+
+<main>
+    <h1><%= film.title  %></h1>
+    <div class="global">
+        <div class="global__img">
+    <img class="description__img" src="<%= film.image_src %>" alt="">
+        </div>
+        <div class="global__description">
+            <h3>titre original : <%= film.original_title %></h3>
+            <h3>Directeur :<%= film.director %></h3>
+            <p> Date de sortie : <%= film.release_date %></p>
+            <p>Durée du film : <%= film.duration %></p>
+            <a href="/films">Retour à la liste de films</a>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>

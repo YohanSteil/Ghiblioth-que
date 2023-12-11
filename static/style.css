@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.navbar__item{
+    font-size: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar__item > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navbar__item >a:hover{
+    background-color: white;
+    color: lightblue;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.ghibliAll{
+    width: 60%;
+    padding-top: 100px;
+}
